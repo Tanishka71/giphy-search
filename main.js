@@ -42,6 +42,7 @@ function searchGiphy( searchQuery ) {
 }
 
 
+
 function pushToDOM( response ) {
 	// turn response into real javascript object
 	response = JSON.parse( response );
